@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="angularResume">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Clayton Haddock's resume</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="js/controllers/controller.js"></script>
+		<script src="js/directives/schoolInfo.js"></script>
+		<script src="js/directives/jobInfo.js"></script>
+	</head>
+	<body ng-controller="JobListCtrl">
+		<div class="leftside">
+			<div class="element jobs">			
+				<job-info info="jobs"></job-info>	
+			</div>
+			<div class="element">
+				<school-info info="schools"></school-info>
+			</div>
+		</div>
+		<div class="rightside">
+			<div class="element skills">
+			<header class="sectiontitle oneline">TECHNICAL SKILLS</header>
+				<div class="singlejob" ng-repeat="skill in skills">- {{ skill.name }}</div>		
+			</div>
+		</div>
+	</body>
+</html>

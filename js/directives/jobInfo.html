@@ -1,0 +1,25 @@
+<header class="sectiontitle">EMPLOYMENT</header>
+<ul class="icon">
+	<li ng-repeat="job in info">
+		<section class="cred">
+			<div class="headline">
+				<div class="header">
+					<h3 class="title">{{ job.name }}</h3>
+					<p class="jobInfo">{{ job.company }}</p>
+					<p class="jobInfo">{{ job.city }}</p>
+				</div>
+				<div class="header dates">
+					<p class="green">{{ job.Started }}</p>
+					<div class="line"></div>
+					<p class="green">{{ job.ended }}</p>
+				</div>
+			</div>		
+				<ul class="icon" ng-repeat="duty in job.duties">
+					<li class="job">
+						-{{ duty.title }}
+					</li>
+					
+				</ul>	
+		</section>
+	</li>
+</ul>

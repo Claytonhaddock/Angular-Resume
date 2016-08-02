@@ -1,0 +1,88 @@
+* {
+	margin: 0px;
+	padding:0px;
+	color: #34495e;
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0px auto;
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+}
+
+.leftside {
+	display: flex;
+	flex-direction: column;
+}
+.rightside {
+	width: 100%;
+}
+
+.sectiontitle {
+	color: #1abc9c;
+	font-size: 2rem;
+	letter-spacing: 2px;
+}
+.header {
+	display: inline-block;
+}
+.title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.dl {
+	display: inline-block;
+}
+
+.grad {
+	color: #1abc9c;
+}
+.cred {
+	
+	width:350px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.element {
+	width: 50%;
+	margin-bottom: 30px;
+}
+.job {
+	margin-left: 17px;
+}
+.jobInfo {
+	font-style: italic;
+}
+.dates {
+	position: absolute;
+	left: 220px;
+}
+.line {
+	width: 100px;
+	margin-bottom:4px;
+	height:0px;
+	border: 1.5px solid #1abc9c;
+}
+.green {
+	color: #1abc9c;
+}
+.headline {
+	position: relative;
+}
+.icon {
+	list-style: none;
+}
+.skills {
+	/*line-height: 2;*/
+	width: 100%;
+}
+.oneline {
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.singlejob {
+	margin-bottom: 15px;
+}

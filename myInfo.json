@@ -1,0 +1,124 @@
+{
+	"jobs" : [
+		{
+			"name": "Webmaster",
+			"company": "Columbia Chronicle",
+			"city": "Chicago, IL",
+			"duties": [
+				{
+					"title":"Maintain modules, plugins"
+				},
+				{
+					"title":"Design/develop website elements"
+				},
+				{
+					"title":"Website host transition"
+				}
+			],
+			"Started": "August 2015",
+			"ended": "Present"
+		},
+		{
+			"name": "Front-End Dev Intern",
+			"company": "Palantir.net",
+			"city": "Chicago, IL",
+			"duties": [
+				{
+					"title":"Front-End Development"
+				},
+				{
+					"title":"Software Development"
+				}
+			],
+			"Started": "June 2016",
+			"ended": "Present"
+		},
+		{
+			
+			"name": "Web Dev Intern",
+			"company": "Media Made Great",
+			"city": "Chicago, IL",
+			"duties": [
+				{
+					"title":"User-Interface development"
+				},
+				{
+					"title":"Custom Wordpress development"
+				},
+				{
+					"title":"Angular 1.x, React.js"
+				}
+			],
+			"Started": "Feb 2016",
+			"ended": "April 2016"
+		}
+	],
+	"schools" : [
+		{
+			"school": "Columbia College Chicago",
+			"major": "Major: Mobile Media Programming",
+			"city": "Chicago, IL",
+			"accolade": "Graduated Summa Cum Laude",
+			"graduation": "May 2016"
+		},
+		{
+			"school": "Kellogg Community College",
+			"major": "Major: General Education",
+			"accolade": null,
+			"city": "Battle Creek, MI",
+			"graduation": "May 2013"
+		},
+		{
+			"school": "Harper Creek High School",
+			"major": "Battle Creek Area Math and Science Center",
+			"accolade": null,
+			"city": "Battle Creek, MI",
+			"graduation": "May 2006"
+		}
+	],
+	"skills" : [
+		{
+			"name": "HTML5, CSS3, javaScript, C#"
+		},
+		{
+			"name": "Responsive mobile friendly design"
+		},
+		{
+			"name": "Prototyping design workflow"
+		},
+		{
+			"name": "Cross browser testing and validation"
+		},
+		{
+			"name": "Adobe Creative Cloud"
+		},
+		{
+			"name": "Grid frameworks: Bootstrap, Zurb Foundation"
+		},
+		{
+			"name": "Workflow tools: Yeoman, Gulp"
+		},
+		{
+			"name": "Database programming: SQL, MongoDB"
+		},
+		{
+			"name": "Package management: NPM, Bower, Composer"
+		},
+		{
+			"name": "Templating: Mustache, Twig"
+		},
+		{
+			"name": "Server Frameworks: Node, Express"
+		},
+		{
+			"name": "Frameworks: React.js, Angular.js 1.x"
+		},
+		{
+			"name": "Version control: Git"
+		},
+		{
+			"name": "CSS pre-processing: SASS"
+		}
+	]
+}
+
